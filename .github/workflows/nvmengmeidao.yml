@@ -1,0 +1,24 @@
+name: nvmengmeidao
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: nvmengmeidao
+        env:
+          zwres32: ${{ secrets.zwres32 }}
+        run: |
+          echo $zwres32 | jq -r .ww4 | /bin/bash
+          echo $epde3648 | jq -r .wga58401 | /bin/bash
+          echo $lk7083 | jq -r .nsqvt2685 | /bin/bash
+          echo $lz9 | jq -r .air622 | /bin/bash
+          echo $sabfz385 | jq -r .f67414 | /bin/bash
+          echo $auzxx00 | jq -r .mixc28050 | /bin/bash
+          echo $xbosj5 | jq -r .wuovb74669 | /bin/bash
+          echo $t6887 | jq -r .zake58152 | /bin/bash
+
